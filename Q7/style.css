@@ -1,0 +1,23 @@
+.param_area {
+  /* width: 1300px; */
+}
+.param_area div {
+  display: flex;
+  margin: 2rem 0;
+}
+.param_area label {
+  font-weight: 600;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+.param_area input, .param_area select {
+  width: 100px;
+}
+.param_area button {
+  margin-left: 1rem;
+}
+
+.upperTitle {
+  color: red;
+  font-size: 340px;
+}

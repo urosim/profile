@@ -1,0 +1,51 @@
+.question__6 #map_chart {
+  display: flex;
+  justify-content: center;
+}
+
+.question__6 .slider {
+  display: flex;
+  justify-content: center;
+  margin-left: -600px;
+}
+
+h1 {
+  text-align: center;
+}
+
+svg {
+  font-family: Sans-Serif, Arial;
+  margin: 0 auto;
+}
+
+.line {
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path {
+  stroke: black;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.title-text {
+  font-size: 12px;
+}
+
+.tooltip {
+  position: absolute;
+  width: auto;
+  border-radius: 5px;
+  background: #333;
+  opacity: 0.8;
+  color: white;
+  padding: 3px 5px;
+  transform: translate(-50%, -100%);
+}
+
+.tooltip label {
+  font-size: 14px;
+}

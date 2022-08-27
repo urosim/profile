@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<hrml>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+    <h1>D3 Chart Customize (2)</h1>
+    <div class="param_area">
+      <div>
+        <label>Value</label>
+        <input type="text" name="value" id="value" value="150" />
+        <label>Trend</label>
+        <select id="trend">
+          <option value="up">Up</option>
+          <option value="down">Down</option>
+        </select>
+        <button onclick="drawChartHandle()">Render</button>
+      </div>
+    </div>
+    <div id="chart_area"></div>
+  </body>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="script.js"></script>
+</hrml>
